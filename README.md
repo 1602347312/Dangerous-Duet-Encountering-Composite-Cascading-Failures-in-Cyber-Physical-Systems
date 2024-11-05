@@ -3,7 +3,7 @@ Since the cyber-physical system can be modeled as an interdependent network, whi
 
 ## Experiment details:
 ### Environment: 
-Intel Xeon Gold 6226R CPU, RTX 3090, 64G RAM
+Intel Xeon Gold 6226R CPU, RTX 3090, 64G RAM, torch 2.3.0, cuda 12.1
 
 ### Dataset: 
 We use the cascading failure simulator mentioned in the paper to generate dataset. Specifically, we first generate different networks, and then record the average results (200 runs) of each failure scenario. Finally we collect about 120,000 pieces of data, and we split them into train, validation and test dataset in an 8:1:1 ratio.
